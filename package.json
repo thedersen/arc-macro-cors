@@ -1,0 +1,29 @@
+{
+  "name": "arc-macro-cors",
+  "version": "1.0.0",
+  "description": "Enable CORS for Architect HTTP APIs",
+  "main": "src/macros/arc-macro-cors.js",
+  "dependencies": {
+    "@architect/utils": "^1.5.2"
+  },
+  "scripts": {
+    "lint": "xo --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedersen/arc-macro-cors.git"
+  },
+  "xo": {
+    "prettier": true,
+    "space": 2
+  },
+  "prettier": {
+    "trailingComma": "es5"
+  },
+  "author": "Thomas Pedersen <hi@thomas.pe>",
+  "license": "MIT",
+  "devDependencies": {
+    "@architect/macro-http-api": "^1.0.0",
+    "xo": "^0.28.1"
+  }
+}
