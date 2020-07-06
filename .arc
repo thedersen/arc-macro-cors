@@ -1,6 +1,10 @@
 @app
 test-cors
 
+@aws
+region eu-central-1
+apigateway http
+
 @cors
 allowOrigins https://example.com
 allowMethods GET,POST,OPTIONS
@@ -13,5 +17,4 @@ allowCredentials true
 get /foo
 
 @macros
-architect/macro-http-api
 arc-macro-cors

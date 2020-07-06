@@ -1,10 +1,9 @@
 # arc-macro-cors
 
-Enable CORS for [Architect](https://arc.codes) HTTP APIs.
+Enable CORS for [Architect](https://arc.codes) HTTP APIs (APIG HTTP Api only).
 
-## Ok..How?!
 
-Install:
+###Install:
 
 `npm i arc-macro-cors`
 
@@ -21,7 +20,6 @@ get /foo
 post /foo
 
 @macros
-architect/macro-http-api #Required until HTTP APIs are default in arc
 arc-macro-cors
 ```
 Or configure specific CORS settings:
@@ -44,7 +42,6 @@ get /foo
 post /foo
 
 @macros
-architect/macro-http-api #Required until HTTP APIs are default in arc
 arc-macro-cors
 ```
 
